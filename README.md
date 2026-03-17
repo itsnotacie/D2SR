@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 3.  Modify `args.pretrained_model_path` and `args.pretrained_path` in `models\team19_D2SR\io.py`, please **DON'T** modify other options for best  performance 
 
-4. Select the model 8 to test:
+4. Select the model 19 to test:
 
    ```bash
    CUDA_VISIBLE_DEVICES=0 python test.py --test_dir [path to test data dir] --save_dir [path to your save dir] --model_id 19
